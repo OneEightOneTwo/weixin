@@ -1,0 +1,10 @@
+<view>日志页</view>
+<button bindtap='takePhoto'>拍照</button>
+<camera
+  device-position="back"
+  flash="off"
+  binderror="error"
+  style="width: 100%; height: 300px;"
+></camera>
+<view>{{src}}</view>
+<image mode="widthFix" src="{{src}}"></image>

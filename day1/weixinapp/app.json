@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#58BC58",
+    "navigationBarTitleText": "今日头条",
+    "navigationBarTextStyle": "white",
+    "navigationStyle":"default",
+    "backgroundColor":"#666666",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "color":"#000000",
+    "selectedColor":"#FFFFFF",
+    "backgroundColor":"#58BC58",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "iconPath":"imgs/index.png",
+      "selectedIconPath": "imgs/indexSelect.png"
+    },{
+      "pagePath": "pages/mine/mine",
+      "text": "我的"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的"
+    }]
+  }
+}
